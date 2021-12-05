@@ -1,0 +1,68 @@
+body { 
+    height: 100vh;
+    background: linear-gradient(120deg,#0066CC,#99CCFF);
+}
+.container {
+    border: 2px solid white;
+    padding: 35px;
+    width: 40%;
+    min-width: 500px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+}
+#newtask {
+    background-color: white;
+    padding: 20px 20px;
+    border-radius: 6px;
+    position: relative;
+
+}
+#newtask input{
+    width: 75%;
+    font-size: 17px;
+    border: 2px solid;
+    padding: 12px;
+    position: relative;
+}
+#newtask button {
+    position: relative;
+    float: right;
+    width: 17%;
+    height: 50px;
+    border-radius: 6px;
+    font-size: 17px;
+    cursor: pointer;
+}
+#tasks {
+    position: relative;
+    background-color: white;
+    padding: 20px 20px;
+    margin-left: 10px;
+    margin-top: 50px;
+    border-radius: 12px;
+    width: 90%;
+    min-width: 465px;
+}
+.task {
+    width: 70%;
+    height: 50px;
+    padding: 5px 10px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    z-index: 1;
+    justify-content: space-between;
+}
+.task .delete {
+    position: absolute;
+    color: #fff;
+    height: 10px;
+    width: 40px;
+    border-radius: 6px;
+    border: none;
+    z-index: 2;
+    right: 30px;
+    cursor: pointer;
+}
